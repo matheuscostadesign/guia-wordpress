@@ -5,7 +5,7 @@ Anotações Wordpress
 
 - Adicionar os arquivos estáticos da página na pasta:
 
-`Ex: app\public\wp-content\themes\theme-navis`
+`Ex: app\public\wp-content\themes\theme-ex`
 
 - Converter arquivo `index.html` p/ `index.php`
 
