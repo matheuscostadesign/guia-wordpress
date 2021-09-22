@@ -1,11 +1,10 @@
 # guia-wordpress
 Anotações Wordpress
 
-- Plugin VSCode: WordPress Snippets
+- Instslar plugin VSCode: `WordPress Snippets`
 
 - Adicionar os arquivos estáticos da página na pasta:
-
-`Ex: app\public\wp-content\themes\theme-ex`
+  `Ex: app\public\wp-content\themes\theme-ex`
 
 - Converter arquivo `index.html` p/ `index.php`
 
@@ -20,9 +19,9 @@ Author URI: https://matheuscostadesign.github.io
 Description: Descrição do tema
 /*
 ```
-- Criar o arquivo `screenshot.png` na raíz do projeto para servir como thumbnail do tema com o tamanho `880x660`
+- Criar o arquivo `screenshot.png` com as medidas `880x660px` na raíz do projeto para servir como thumbnail do tema
 
-Inserir código PHP em todas URL/source
+- Inserir função PHP antes do caminho dos arquivos em todas URL's
 
 ```php
 <?php echo get_template_directory_uri() ?>/
