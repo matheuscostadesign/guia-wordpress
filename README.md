@@ -16,6 +16,7 @@ Anotações Wordpress
 ```css
 /*
 Theme Name: Nome do tema
+Version: 1.0.0
 Theme URI: URL do projeto
 Author: Nome do autor
 Author URI: https://matheuscostadesign.github.io
