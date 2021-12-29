@@ -31,5 +31,6 @@ Description: Descrição do tema
 <?php echo get_template_directory_uri() ?>/
 ```
 
-
- 
+- Criar header.php
+-   ```php<?php get_header(); ?>```
+-   ```php<?php get_footer(); ?>```
