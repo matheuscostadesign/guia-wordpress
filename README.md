@@ -1,7 +1,10 @@
 # guia-wordpress
 Anotações Wordpress
 
-- Instslar plugin VSCode: `WordPress Snippets`
+- Instalar, executar e configurar o WPLocal
+  - https://localwp.com/
+
+- Instalar plugin VSCode: `WordPress Snippets`
 
 - Adicionar os arquivos estáticos da página na pasta:
   `Ex: app\public\wp-content\themes\theme-ex`
