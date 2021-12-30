@@ -63,3 +63,12 @@ Description: Descrição do tema
 // Antes do fechamento da tag `</body>`
 <?php wp_footer();?>
 ```
+
+### Inserir titulo dinamicamente
+- Inserir a função abaixo dentro da tag `<title>`
+```php
+<?php bloginfo('name')?><?php wp_title('-')?>
+
+// Exemplo:
+<title><?php bloginfo('name')?><?php wp_title('-')?></title>
+```
