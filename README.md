@@ -72,3 +72,6 @@ Description: Descrição do tema
 // Exemplo:
 <title><?php bloginfo('name')?><?php wp_title('-')?></title>
 ```
+
+### Hierarquia de Modelos WordPress
+- https://codex.wordpress.org/images/0/02/Hierarquia_de_Arquivos_de_Tema_WordPress.png
