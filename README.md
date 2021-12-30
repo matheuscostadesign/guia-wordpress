@@ -31,6 +31,23 @@ Description: Descrição do tema
 <?php echo get_template_directory_uri() ?>/
 ```
 
-- Criar header.php
--   ```php<?php get_header(); ?>```
--   ```php<?php get_footer(); ?>```
+- Criar header.php e footer.php
+```php
+//Header
+<?php get_header(); ?>
+
+//Footer
+<?php get_footer(); ?>
+```
+
+#### Inserir barra do Wordpress
+
+- Antes do fechamento da tag `</head>`
+```php
+<?php wp_head();?>
+```
+
+- Antes do fechamento da tag `</body>`
+```php
+<?php wp_footer();?>
+```
