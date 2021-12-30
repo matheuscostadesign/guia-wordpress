@@ -146,4 +146,16 @@ add_action( 'init', 'register_my_menu' );
 ?>
 ```
 
-- 
+- Substituir a lista de menu `<ul><li><a href="#">Link</a></li></ul>` pelo código abaixo
+```php
+      <?php
+        $args = array(
+          'menu' => 'Header Principal',
+          'theme_location' => 'header-principal',
+          'container' => false
+        );
+        wp_nav_menu( $args );
+      ?>
+```
+
+- Ir no painel do Wordpress > Aparência > Menus e fazer o gerenciamento dos menus
