@@ -5,11 +5,12 @@ Anotações Wordpress
 - Instalar, executar e configurar o WPLocal
   - https://localwp.com/
 - Instalar plugin VSCode: `WordPress Snippets`
-- Adicionar os arquivos estáticos da página na pasta:
-  `Ex: app\public\wp-content\themes\theme-ex`
+- Adicionar os arquivos estáticos (todo HTML) na pasta:
+  `WPLocal\...\app\public\wp-content\themes\theme-example`
 
 ### Converter HTML p/ PHP
 - Converter arquivo `index.html` p/ `index.php`
+- Converter todos os arquivos `.HTML` p/ `.PHP`
 
 ### Configurando tema
 - Criar o arquivo `style.css` na raíz do projeto com o conteúdo abaixo:
@@ -43,7 +44,7 @@ Description: Descrição do tema
 ### Componentes que se repetem: Header e Footer
 - Criar os arquivos: `header.php` e `footer.php` 
 - Inserir a estrutura HTML nesses arquivos
-- Nas páginas que necessitam deles, basta inserir os comando abaixo:
+- Nas páginas que necessitam deles, basta chamar a função abaixo:
 
 ```php
 // Header
