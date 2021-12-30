@@ -64,7 +64,7 @@ Description: Descrição do tema
 <?php wp_footer();?>
 ```
 
-### Inserir titulo dinamicamente
+### Inserir titulo da página dinamicamente
 - Inserir a função abaixo dentro da tag `<title>`
 ```php
 <?php bloginfo('name')?><?php wp_title('-')?>
