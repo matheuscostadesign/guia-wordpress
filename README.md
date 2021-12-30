@@ -33,11 +33,11 @@ Description: Descrição do tema
 
 - Criar header.php e footer.php
 ```php
-//Header
-<?php get_header(); ?>
+// Header
+<?php get_header();?>
 
-//Footer
-<?php get_footer(); ?>
+// Footer
+<?php get_footer();?>
 ```
 
 #### Inserir barra do Wordpress
