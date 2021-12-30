@@ -86,9 +86,9 @@ Description: Descrição do tema
 // Template name: Home
 ?>
 ```
-- Acessar o painel do Wordpress: Páginas > Adicionar nova > Home
+- Acessar o painel do Wordpress: `Páginas > Adicionar nova >` Home
 - Na criação da página, selecionar o modelo: "Home"
-- Acessar: Configurações > Leitura > Sua página inicial exibe: Selecionar "Home"
+- Acessar: `Configurações > Leitura >` Sua página inicial exibe: Selecionar "Home"
 
 ### Links internos
 - Funções: `get_permalink` e `get_page_by_path`
@@ -158,4 +158,4 @@ add_action( 'init', 'register_my_menu' );
 ?>
 ```
 
-- Ir no painel do Wordpress > Aparência > Menus e fazer o gerenciamento dos menus
+- Ir no painel do `Wordpress > Aparência > Menus` e fazer o gerenciamento dos menus
