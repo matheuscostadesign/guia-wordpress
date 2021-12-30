@@ -139,10 +139,10 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 ```php
 // Função para habilitar o gerenciamento de menu
 add_theme_support('menus');
-function register_my_menu() {
+function registrar_menu_principal() {
   register_nav_menu('header-principal',__( 'Header Principal' ));
 }
-add_action( 'init', 'register_my_menu' );
+add_action( 'init', 'registrar_menu_principal' );
 ?>
 ```
 
