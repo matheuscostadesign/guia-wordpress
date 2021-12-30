@@ -102,7 +102,7 @@ Description: Descrição do tema
 
 ### Arquivo de funções do tema
 - Criar arquivo de funções `functions.php` na raiz  do projeto
-- Esse arquivo serve para limpar sujeiras que o Wordpress criar na página
+- Esse arquivo serve para limpar sujeiras que o Wordpress cria na página
 
 ```php
 <?php 
