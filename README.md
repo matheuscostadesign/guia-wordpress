@@ -159,3 +159,13 @@ add_action( 'init', 'registrar_menu_principal' );
 ```
 
 - Ir no painel do `Wordpress > Aparência > Menus` e fazer o gerenciamento dos menus
+
+### Função Include
+- Função para ser usada em sessões da página que se repetem
+- Criar uma pasta chamada na raiz do projeto chamada `includes`
+- Criar o arquivo/componente dentro da pasta (Ex: `section-depoimentos.php`)
+- Chamar o arquivo com o código abaixo:
+
+```php
+<?php include(TEMPLATEPATH .'/includes/section-depoimentos.php') ?>
+```
