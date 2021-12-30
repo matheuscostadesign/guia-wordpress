@@ -76,3 +76,16 @@ Description: Descrição do tema
 ### Hierarquia de Modelos WordPress
 - https://codex.wordpress.org/pt-br:Hierarquia_de_Modelos_WordPress
 - https://codex.wordpress.org/images/0/02/Hierarquia_de_Arquivos_de_Tema_WordPress.png
+
+### Criando templates
+- Criar a página (Ex: `"page-home.php"`)
+- Pegar o conteúdo da `index.php` e mover para a `page-home.php`
+- Adicionar o nome do template/modelo da página, antes do fechamento da tag `</head>`
+```php
+<?php
+// Template name: Home
+?>
+```
+- Acessar o painel do Wordpress: Páginas > Adicionar nova > Home
+- Na criação da página, selecionar o modelo: "Home"
+- Acessar: Configurações > Leitura > Sua página inicial exibe: Selecionar "Home"
