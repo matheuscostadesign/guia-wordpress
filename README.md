@@ -91,7 +91,7 @@ Description: Descrição do tema
 - Acessar: Configurações > Leitura > Sua página inicial exibe: Selecionar "Home"
 
 ### Links internos
-- Funções : get_permalink e get_page_by_path
+- Funções: `get_permalink` e `get_page_by_path`
 - Criar o arquivo da página (Ex: `page-produtos.php`)
 - Criar a página no Wordpress, referenciando para o modelo
 - Na chamade de link para abrir a página, adicionar código abaixo:
