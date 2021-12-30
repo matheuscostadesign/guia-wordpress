@@ -89,3 +89,13 @@ Description: Descrição do tema
 - Acessar o painel do Wordpress: Páginas > Adicionar nova > Home
 - Na criação da página, selecionar o modelo: "Home"
 - Acessar: Configurações > Leitura > Sua página inicial exibe: Selecionar "Home"
+
+### Links internos
+- Funções : get_permalink e get_page_by_path
+- Criar o arquivo da página (Ex: `page-produtos.php`)
+- Criar a página no Wordpress, referenciando para o modelo
+- Na chamade de link para abrir a página, adicionar código abaixo:
+
+```php
+<li><a href="<?php echo get_permalink(get_page_by_path('Produtos')) ?>">Produtos</a></li>
+```
