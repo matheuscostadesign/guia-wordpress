@@ -121,3 +121,14 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 
 ?>
 ```
+
+### Adicionar verificação (loop) em todas as páginas modelo
+- Adicionar o código abaixo em todas as páginas entre as tags `<?php get_header();?>` e `<?php get_footer();?>`
+
+```php
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+// Conteudo, sections...
+
+<?php endwhile; else: endif; ?>
+```
