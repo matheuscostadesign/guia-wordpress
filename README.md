@@ -41,6 +41,8 @@ Description: Descrição do tema
 <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/main.min.css">
 ```
 
+<img src="https://raw.githubusercontent.com/matheuscostadesign/guia-wordpress/main/vscode.png">
+
 ### Componentes que se repetem: Header e Footer
 - Criar os arquivos: `header.php` e `footer.php` 
 - Inserir a estrutura HTML nesses arquivos
