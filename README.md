@@ -35,7 +35,7 @@ Description: Descrição do tema
 - Arquivos CSS, imagens, scripts, etc
 
 ```php
-<?php echo get_template_directory_uri() ?>/
+<?php echo get_template_directory_uri() ?>
 
 // Exemplo arquivo CSS:
 <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/main.min.css">
