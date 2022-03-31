@@ -40,7 +40,7 @@ Description: Descrição do tema
 // Exemplo arquivo CSS:
 <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/main.min.css">
 ```
-- Dica para produtividade: 
+- Dica para produtividade (VSCode - Ctrl + F)
 <img src="https://raw.githubusercontent.com/matheuscostadesign/guia-wordpress/main/vscode.png">
 
 ### Componentes que se repetem: Header e Footer
